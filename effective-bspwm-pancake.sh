@@ -51,14 +51,14 @@ genderprompt() {
     echo -e "Would you like E-girl or E-boy theme? (return:none is for my lovely friends)"
     echo -e "1. : E-GIRL (RECOMMENDED)"
     echo -e "2. : E-BOY"
-    read -p $'>_: ' ozurdilerim
-    if [[ "$ozurdilerim" == "1" ]]; then
+    read -p $'>_: ' dearestimsosorry
+    if [[ "$dearestimsosorry" == "1" ]]; then
         egirl
     fi
-    if [[ "$ozurdilerim" == "2" ]]; then
+    if [[ "$dearestimsosorry" == "2" ]]; then
         eboy
     fi
-    if [[ "$ozurdilerim" == "" ]]; then
+    if [[ "$dearestimsosorry" == "" ]]; then
         none
     fi
 }
